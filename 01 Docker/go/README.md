@@ -10,7 +10,7 @@ docker run luscalima/fullcycle
 
 Saída:
 
-```
+```bash
 Full Cycle Rocks!!
 ```
 
