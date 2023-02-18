@@ -9,6 +9,7 @@ services:
     entrypoint: dockerize -wait tcp://db:3306 -timeout 60s docker-entrypoint.sh
     volumes:
       - ./:/usr/src/app
+      - /usr/src/app/node_modules
     networks:
       - challenge
     tty: true
